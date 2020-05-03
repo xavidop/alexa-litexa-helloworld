@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "development": {
+      "versions": [
+        {
+          "lastDeployment": {
+            "date": "2020-5-3 12:57:46 PM",
+            "deploymentTypes": {
+              "lambda": true,
+              "assets": true,
+              "model": true,
+              "manifest": true
+            },
+            "git": "fatal: not a git repository (or any of the parent directories): .git\n",
+            "coreVersion": "0.5.0"
+          },
+          "dynamoDBARN": "arn:aws:dynamodb:us-east-1:141568529918:table/alexa-litexa-helloworld_development_litexa_handler_state",
+          "iamRole-litexa_handler_lambda": "arn:aws:iam::141568529918:role/litexa_handler_lambda",
+          "lambdaARN": "arn:aws:lambda:us-east-1:141568529918:function:alexa-litexa-helloworld_development_litexa_handler:release-0",
+          "assets-root": "https://s3.us-east-1.amazonaws.com/litexa-helloworld/alexa-litexa-helloworld/development/",
+          "deployedIconAssets": {
+            "default": {
+              "icon-108.png": {
+                "url": "https://s3.us-east-1.amazonaws.com/litexa-helloworld/alexa-litexa-helloworld/development/default/icon-108.png",
+                "md5": "661e635ca0aabc8f51aa39af9edf69cc"
+              },
+              "icon-512.png": {
+                "url": "https://s3.us-east-1.amazonaws.com/litexa-helloworld/alexa-litexa-helloworld/development/default/icon-512.png",
+                "md5": "300d90c2d2294ee39f4dce26c5618ad1"
+              }
+            }
+          },
+          "skillId": "amzn1.ask.skill.594b4575-091d-4da1-999d-8017dbdf5804",
+          "skill-model-etag-en-US": "f4c54bf0b13f300f539d1bfa92332d2d",
+          "skill-manifest-assets-md5": "661e635ca0aabc8f51aa39af9edf69cc300d90c2d2294ee39f4dce26c5618ad1"
+        }
+      ]
+    }
+  },
+  "globals": {
+    "last-generated": 1588498188829
+  }
+}
